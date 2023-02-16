@@ -5,6 +5,6 @@ eur = 0;
 
 while int(convert) != 0:
     convert = float(input('Количество долларов для конвертации. Для выхода нажмите 0: '))
-    eur = round((convert * 1.17), 2)
+    eur = round((convert / 1.17), 2)
     if convert > 0:
         print('Количество евро после конвертации:', eur)
